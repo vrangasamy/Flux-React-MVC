@@ -1,3 +1,13 @@
+##Flux-React MVC
+Flux applications have three major parts: the dispatcher, the stores, and the views (React components). These should not be confused with Model-View-Controller. Controllers do exist in a Flux application, but they are controller-views -- views often found at the top of the hierarchy that retrieve data from the stores and pass this data down to their children. Additionally, actions — dispatcher helper methods — are often used to support a semantic dispatcher API. It can be useful to think of them as a fourth part of the Flux update cycle.
+
+Data in a Flux application flows in a single direction, in a cycle:
+
+Views ---> (actions) ----> Dispatcher ---> (registered callback) ---> Stores -------+
+Ʌ                                                                                   |
+|                                                                                   V
++-- (Controller-Views "change" event handlers) ---- (Stores emit "change" events) --+
+
 ## Clone this Project from GIT
 ## Running
     npm install
