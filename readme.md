@@ -19,5 +19,4 @@ Then visit: [http://localhost:3000/](http://localhost:3000/)
 
 ## Credit
 
-The TodoMVC application was original created by Bill Fisher /  Jing Chen. Please visit the [original repo here](https://github.com/facebook/react/tree/master/examples/todomvc-flux):
-The TodoMVC application with BackboneJS by Shaohua (https://github.com/shaohua/todomvc-react-flux-backbone)
+The TodoMVC application was original created by Bill Fisher /  Jing Chen and Shaohua (BackboneJS Implementation) Please visit the [original repo here](https://github.com/facebook/react/tree/master/examples/todomvc-flux):
